@@ -1,0 +1,32 @@
+iframe{
+    width: 180%;
+}
+.caja{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+    text-align: center;
+}
+.caja_informacion{
+    color: white;
+    background-color: orange;
+}
+.fondo, .clasex{
+    background-color: blue;
+}
+.my-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .my-button:hover {
+    background-color: #45a049;
+  }
+  
+  .my-button:active {
+    background-color: #3e8e41;
+  }
